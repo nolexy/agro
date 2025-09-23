@@ -159,21 +159,22 @@ font-weight: 600;
 .location a i {
     margin-right: 7px;
 }
-.socialbuttons {
-position: absolute;
+.socialbuttons{
+margin-left: 14rem;
+margin-top: 2rem;
 display: flex;
 bottom: 1rem;            /* 1rem من أسفل القسم */
 left: 50%;
 transform: translateX(-50%);
-
 gap: 20px;               /* مسافة بين الأيقونات */
 }
 .socialbuttons a {
-color: #000000;
-font-size: 1.6em;
+color: #120a57;
+font-size: 2.3em;
 text-decoration: none;
 background: #cdd7de;
 border-radius: 5px;
+padding: 2PX 2PX;
 }
 .products {
 padding: 3rem 2rem;
@@ -245,10 +246,6 @@ transition: 0.7s ease;
 .info P{
     text-align: center;
 }
-
-
-
-
 .cardd{
     background: rgb(234, 229, 220);
     width: 20em;
@@ -272,10 +269,98 @@ transition: 0.7s ease;
 .info P{
     text-align: center;
 }
+/* ===== خلفية وعنوان القسم ===== */
+.serviceb {
+  background: rgb(5, 22, 30);
+  padding: 3rem 2rem;
+}
+
+.serviceb h1 {
+  color: rgb(112, 157, 185);
+  font-size: 3.3em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;        /* توسيط العنوان */
+}
+
+/* ===== الحاوية التي تجمع الصورة والنص ===== */
+.servicee {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;           /* يجعل المحتوى يلتف في الشاشات الصغيرة */
+}
+
+/* ===== حاوية الصورة + النص ===== */
+.abdo {
+  display: flex;             /* 🔑 صورة يسار + نص يمين */
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 50px;                 /* مسافة بين الصورة والنص */
+  max-width: 1100px;
+}
+
+/* ===== الصورة ===== */
+.abdo img {
+  width: 22em;
+  height: 28em;
+  border-radius: 10px;       /* ✅ تصحيح الوحدة */
+  padding: 5px;
+  background-color: #000;
+  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.55);
+  transition: 0.7s ease;
+}
+.abdo img:hover {
+  transform: scale(1.1);
+}
+
+/* ===== النص ===== */
+.abdo p {
+  color: #d3d3d3;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+.abdo p span {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(71, 127, 162);
+  margin-bottom: 10px;
+}
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===== استجابة الهواتف ===== */
+@media (max-width: 768px) {
+  .abdo {
+    flex-direction: column;  /* في الشاشات الصغيرة تصبح الصورة فوق النص */
+    align-items: center;
+    text-align: center;
+  }
+  .abdo p {
+    max-width: 90%;
+  }
+}
 
 
 
