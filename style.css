@@ -80,10 +80,10 @@ section{
     display: flex;
     align-items: center;
     min-height: 100vh;
-   background: url(wheat-field-india_75648-1058.jpg)no-repeat;
+   background: url(PHOTO/wheat-field-india_75648-1058.jpg)no-repeat;
    background-size: cover;
   background-position:  center;
-  
+ 
  }
  .homee .content{
     max-width: 40rem;
@@ -103,6 +103,10 @@ section{
     color: #3D5656 ;
     padding: 1rem 0;
     line-height: 1.5;
+ }
+ .homee{
+    background-position: left;
+
  }
  .btn{
     display: inline-block;
@@ -141,25 +145,57 @@ transition: 0.7s ease;
     align-items: center;
     justify-content: center;
 }
+.heading{
+     text-align: center;
+     font-size: 4rem;
+     color: #559e6f;
+     padding: 1rem;
+     margin: 2rem 0;
+     background: #0e1313;
+}
 
+.heading span{
+    color: #c2b9b9;
+    }
+.about {
+    padding: 3rem 2rem;
+    text-align: center;
+}
 
+.about .heading {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+   
+.location {
+   display: inline-block;
+    margin-top: .5rem;
+    border-radius:3rem;
+    background-color: #beddcf;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.4rem;
+text-decoration: none;
+ }
 
+.location a {
+ color: #000000;
+}
+.socialbuttons {
+  position: absolute;
+  bottom: 1rem;            /* 1rem من أسفل القسم */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;               /* مسافة بين الأيقونات */
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.socialbuttons a {
+  color: #000000;
+  font-size: 1.7em;
+  text-decoration: none;
+  background: #dce3e8;
+}
 
 
 
@@ -210,7 +246,12 @@ transition: 0.7s ease;
     header #toggler:checked ~ .navi {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); /* مفتوح */
     }
-
+    .home .content h3{
+        font-size: 5rem;
+    }
+    .home .content span{
+        font-size: 2.5rem;
+    }
     header .navi a {
         margin: 1.5rem;
         padding: 1.5rem;
@@ -223,4 +264,7 @@ transition: 0.7s ease;
 /* Small phones */
 @media (max-width:450px) {
     html { font-size: 50%; }
+    .heading{
+        font-size: 3rem;
+    }
 }
