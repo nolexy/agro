@@ -330,13 +330,61 @@ transition: 0.7s ease;
   margin-bottom: 10px;
 }
 
+.cardt{
+    background: rgb(255, 255, 255);
+    width: 20em;
+    box-shadow: 0 5px 25px rgba(54, 147, 254, 0.411);
+    border-radius: 10pX;
+    padding: 25px;
+    margin: 15px;
+    margin-top: 35px;
+}
+.contenttb {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    }
+
+.cardt:hover{
+    transform: scale(1.1);
+transition: 0.7s ease;
+}
+.icont {
+    text-align: center;
+}
+.infot h2{
+    text-align: center;
+}
+.infot P{
+    text-align: center;
+}
+.imaget {
+    width: 15px;
+    height: 20px;
+    padding-left: 48px;
+}
 
 
-
-
-
-
-
+.Contact h3{
+  color: rgb(112, 157, 185);
+  font-size: 3.3em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  text-align: center;        /* توسيط العنوان */
+}
+.footer{
+    background-color: #000;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.footer p{
+    padding-left: 100px;
+    font-size: larger;
+}
 
 
 
@@ -361,68 +409,6 @@ transition: 0.7s ease;
     max-width: 90%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Tablet */
 @media (max-width:991px) {
     html { font-size: 55%; }
