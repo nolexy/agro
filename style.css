@@ -2,7 +2,6 @@
 
 :root{
    --green:#3D5656
-    
 }
 *{
    font-family: "Poppins", sans-serif; 
@@ -14,7 +13,6 @@
    text-decoration: none;
    text-transform: capitalize;
    transition: .2s linear;
-
 }
 header{
     background-color:#3D5656;
@@ -25,18 +23,12 @@ header{
     padding: 10px 100px;
     position: fixed;
     align-items: center;
-  top: 0;
-  left: 0;
- right: 0;
- box-shadow: 0 .5rem 1rem rgb(93, 93, 210);
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 .5rem 1rem rgb(93, 93, 210);
  }
-.agro {
-color: #CFFDE1;
-text-transform: uppercase;
-font-weight: 700;
-font-size: 1.8em;
- }
- .logo a:hover{
+.logo a:hover{
      color: #218648;
  }
 .navi a {
@@ -51,152 +43,127 @@ font-size: 1.8em;
     transform: scale(1.2);
 transition: 0.5s ease;
   }
-section{
-  padding: 200px 100px;
- }
-.main{
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  background: #eee;
-  background-size: cover;
-  background-position:  center;
-  background-attachment: fixed;
- }
- .photo{
-    width: 10px;
-    height: 15px;
- }
- .header .logoo{
+section {
+  padding: 2rem 9%;       
+}
+.header .logoo{
     font-size: 2.2rem;
     font-weight: bolder;
     color: #CFFDE1;
  }
- section{
-    padding: 2rem 9%;
- }
- .homee{
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-   background: url(PHOTO/wheat-field-india_75648-1058.jpg)no-repeat;
-   background-size: cover;
-  background-position:  center;
- 
- }
- .homee .content{
-    max-width: 40rem;
- }
- .homee .content h3{
-    font-size: 4rem;
-    color: #1c2828 ;
- }
- .homee .content span{
-    font-size: 2rem;
-    color: #3a3c7e ;
-    padding: 1rem 0;
-    line-height: 1.5;
- }
- .homee .content p{
-    font-size: 2rem;
-    color: #3D5656 ;
-    padding: 1rem 0;
-    line-height: 1.5;
- }
- .homee{
-    background-position: left;
-
- }
- .btn{
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background-color: #1c2828;
-    color: #eee;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.7rem;
+.homee{
+display: flex;
+align-items: center;
+min-height: 100vh;
+background: url(PHOTO/wheat-field-india_75648-1058.jpg)no-repeat;
+background-size: cover;
+background-position:  center;
+}
+.homee .content{
+max-width: 40rem;
+}
+.homee .content h3{
+font-size: 4rem;
+color: #1c2828 ;
+}
+.homee .content span{
+font-size: 2rem;
+color: #3a3c7e ;
+padding: 1rem 0;
+line-height: 1.5;
+}
+.homee .content p{
+font-size: 2rem;
+color: #3D5656 ;
+padding: 1rem 0;
+line-height: 1.5;
+}
+.btn{
+display: inline-block;
+margin-top: 1rem;
+border-radius: 5rem;
+background-color: #1c2828;
+color: #eee;
+padding: .9rem 3.5rem;
+cursor: pointer;
+font-size: 1.7rem;
 text-decoration: none;
- }
- .btn:hover{
-    background-color:#3D5656 ;
-    transform: scale(1.1);
+}
+.btn:hover{
+background-color:#3D5656 ;
+transform: scale(1.1);
 transition: 0.7s ease;
- }
-
-
- html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
-    scroll-padding-top: 6rem;
-    overflow-x: hidden;
- }
- header #toggler{
-    display: none;
- }
- header .fa-bars {
-    font-size: 3rem;         /* أصغر قليلاً */
-    color: #1c2828;            /* لون مناسب */
-    padding: 0.6rem 0.rem;    /* تباعد متوازن حول الأيقونة */
-    border: 0.2rem solid #1c2828;
-    border-radius: 0.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+}
+html{
+font-size: 62.5%;
+scroll-behavior: smooth;
+scroll-padding-top: 6rem;
+overflow-x: hidden;
+}
+header #toggler{
+display: none;
+}
+header .fa-bars {
+font-size: 3rem;         /* أصغر قليلاً */
+color: #1c2828;            /* لون مناسب */
+padding: 0.6rem 0.rem;    /* تباعد متوازن حول الأيقونة */
+border: 0.2rem solid #1c2828;
+border-radius: 0.4rem;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .heading{
-     text-align: center;
-     font-size: 4rem;
-     color: #559e6f;
-     padding: 1rem;
-     margin: 2rem 0;
-     background: #0e1313;
+text-align: center;
+font-size: 4rem;
+color: #559e6f;
+padding: 1rem;
+margin: 2rem 0;
+background: #0e1313;
 }
-
 .heading span{
-    color: #c2b9b9;
-    }
+color: #c2b9b9;
+}
 .about {
-    padding: 3rem 2rem;
-    text-align: center;
+padding: 3rem 2rem;
+text-align: center;
 }
 
 .about .heading {
     font-size: 3rem;
     margin-bottom: 2rem;
 }
-   
 .location {
-   display: inline-block;
-    margin-top: .5rem;
-    border-radius:3rem;
-    background-color: #beddcf;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.4rem;
+display: inline-block;
+margin-top: .5rem;
+border-radius:3rem;
+background-color: #beddcf;
+padding: .9rem 3.5rem;
+cursor: pointer;
+font-size: 1.4rem;
 text-decoration: none;
- }
-
+}
 .location a {
  color: #000000;
 }
 .socialbuttons {
-  position: absolute;
-  bottom: 1rem;            /* 1rem من أسفل القسم */
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 20px;               /* مسافة بين الأيقونات */
+position: absolute;
+bottom: 1rem;            /* 1rem من أسفل القسم */
+left: 50%;
+transform: translateX(-50%);
+display: flex;
+gap: 20px;               /* مسافة بين الأيقونات */
 }
-
 .socialbuttons a {
-  color: #000000;
-  font-size: 1.7em;
-  text-decoration: none;
-  background: #dce3e8;
+color: #000000;
+font-size: 1.6em;
+text-decoration: none;
+background: #cdd7de;
 }
-
+.products {
+padding: 3rem 2rem;
+text-align: center;
+}
 
 
 
