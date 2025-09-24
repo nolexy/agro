@@ -112,8 +112,7 @@ header .fa-bars {
 font-size: 3rem;         /* أصغر قليلاً */
 color: #1c2828;            /* لون مناسب */
 padding: 0.6rem 0.rem;    /* تباعد متوازن حول الأيقونة */
-border: 0.2rem solid #1c2828;
-border-radius: 0.4rem;
+
 display: flex;
 align-items: center;
 justify-content: center;
