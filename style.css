@@ -156,20 +156,26 @@ font-weight: 600;
 }
 .socialbuttons{
 margin-left: 14rem;
-margin-top: 2rem;
+margin-top: 3rem;
 display: flex;
 bottom: 1rem;            /* 1rem من أسفل القسم */
 left: 50%;
 transform: translateX(-50%);
-gap: 20px;               /* مسافة بين الأيقونات */
+           gap: 15px;
+           
 }
 .socialbuttons a {
-color: #120a57;
-font-size: 2.3em;
+color: #4130d9;
+font-size: 2em;
 text-decoration: none;
-background: #cdd7de;
-border-radius: 5px;
-padding: 2PX 2PX;
+background: none;
+border-radius: 30px;
+margin-bottom: 10px;
+
+}
+.socialbuttons h2{
+    color: rgb(17, 14, 47);
+    padding-top: 4px;
 }
 .products {
 padding: 3rem 2rem;
