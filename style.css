@@ -32,9 +32,6 @@ header{
     right: 0;
     box-shadow: 0 .5rem 1rem rgb(93, 210, 196);
  }
-.logo a:hover{
-     color: #218648;
- }
 .navi a {
    color: #CFFDE1;
    font-weight: 600;
@@ -50,11 +47,6 @@ transition: 0.5s ease;
 section {
   padding: 2rem 9%;       
 }
-.header .logoo{
-    font-size: 2.2rem;
-    font-weight: bolder;
-    color: #CFFDE1;
- }
 .homee{
 display: flex;
 align-items: center;
@@ -285,37 +277,27 @@ transition: 0.7s ease;
   margin-bottom: 30px;
   text-align: center;        /* توسيط العنوان */
 }
-
 /* ===== الحاوية التي تجمع الصورة والنص ===== */
+
+.abdo{
+      border-radius: 10pX;
+    padding:20px;
+    margin: 10px 60PX;  
+   gap: 20PX;
+}
 .servicee {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;           /* يجعل المحتوى يلتف في الشاشات الصغيرة */
+  
+   display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+     padding: 25px;
+    margin: 15px;
+    margin-top: 35px; 
+       /* يجعل المحتوى يلتف في الشاشات الصغيرة */
 }
-
-/* ===== حاوية الصورة + النص ===== */
-.abdo {
-  display: flex;             /* 🔑 صورة يسار + نص يمين */
-  flex-direction: row;
-  align-items: flex-start;
-  gap: 50px;                 /* مسافة بين الصورة والنص */
-  max-width: 1100px;
-}
-
-/* ===== الصورة ===== */
-.abdo img {
-  width: 22em;
-  height: 28em;
-  border-radius: 10px;       /* ✅ تصحيح الوحدة */
-  padding: 5px;
-  background-color: #000;
-  box-shadow: 0 5px 25px rgba(1, 1, 1, 0.55);
-  transition: 0.7s ease;
-}
-.abdo img:hover {
-  transform: scale(1.1);
-}
-
 /* ===== النص ===== */
 .abdo p {
   color: #d3d3d3;
@@ -324,7 +306,6 @@ transition: 0.7s ease;
   line-height: 1.8;
   max-width: 500px;
 }
-
 .abdo p span {
   display: block;
   font-size: 2rem;
@@ -332,21 +313,19 @@ transition: 0.7s ease;
   color: rgb(71, 127, 162);
   margin-bottom: 10px;
 }
-
-.cardt{
-    background: rgb(255, 255, 255);
-    width: 20em;
-    box-shadow: 0 5px 25px rgba(54, 147, 254, 0.411);
-    border-radius: 10pX;
-    padding: 25px;
-    margin: 15px;
-    margin-top: 35px;
+.abdo h2{
+    display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  color: rgb(44, 98, 132);
+  margin-bottom: 10px;
 }
 .contenttb {
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 160PX;
     }
 
 .cardt:hover{
@@ -365,7 +344,8 @@ transition: 0.7s ease;
 .imaget {
     width: 15px;
     height: 20px;
-    padding-left: 48px;
+    padding-left: 30px;
+    justify-content: center;
 }
 
 
