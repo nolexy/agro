@@ -19,7 +19,7 @@
    transition: .2s linear;
 }
 header{
-    background-color:#3D5656;
+    background-color:#000000;
     width: 100%;
     z-index: 999;
     display: flex;
@@ -30,10 +30,10 @@ header{
     top: 0;
     left: 0;
     right: 0;
-    box-shadow: 0 .5rem 1rem rgb(93, 210, 196);
+    box-shadow: 0 .5rem 1rem rgb(155, 219, 212);
  }
 .navi a {
-   color: #CFFDE1;
+   color: #f5f5f5;
    font-weight: 600;
    font-size: 2rem;
    text-decoration: none;
@@ -51,13 +51,16 @@ section {
 display: flex;
 align-items: center;
 min-height: 100vh;
-background: url(PHOTO/wheat-field-india_75648-1058.jpg)no-repeat;
+background: url(sl_020620_27800_35.jpg)no-repeat;
 background-size: cover;
 background-position:  center;
 flex-direction:inherit;
+text-align: center;
+margin-left: 140px;
+margin-top: 20px;
 }
 .homee .content{
-max-width: 40rem;
+max-width: 70rem;
 }
 .homee .content h3{
 font-size: 4rem;
@@ -65,7 +68,7 @@ color: #1c2828 ;
 }
 .homee .content span{
 font-size: 2rem;
-color: #3a3c7e ;
+color: #202262 ;
 padding: 1rem 0;
 line-height: 1.5;
 }
@@ -79,7 +82,7 @@ line-height: 1.5;
 display: inline-block;
 margin-top: 1rem;
 border-radius: 5rem;
-background-color: #1c2828;
+background-color: #103939;
 color: #eee;
 padding: .9rem 3.5rem;
 cursor: pointer;
@@ -87,7 +90,7 @@ font-size: 1.7rem;
 text-decoration: none;
 }
 .btn:hover{
-background-color:#3D5656 ;
+background-color:#549393 ;
 transform: scale(1.1);
 transition: 0.7s ease;
 }
@@ -101,13 +104,12 @@ header #toggler{
 display: none;
 }
 header .fa-bars {
-font-size: 3rem;         /* أصغر قليلاً */
-color: #1c2828;            /* لون مناسب */
+font-size: 3rem;         /* أصغر قليلاً *olor: #1c2828;            /* لون مناسب */
 padding: 0.6rem 0.rem;    /* تباعد متوازن حول الأيقونة */
-
 display: flex;
 align-items: center;
 justify-content: center;
+color: #549393;
 }
 .heading{
 text-align: center;
@@ -141,7 +143,7 @@ background-color: #e6edf2;
 display: inline-block;
 margin-top: .5rem;
 border-radius:3rem;
-background-color: #91c1aa;
+background-color: #549393 ;
 padding: .9rem 3.5rem;
 cursor: pointer;
 font-size: 1.4rem;
@@ -149,13 +151,13 @@ text-decoration: none;
 font-weight: 600;
 }
 .location a {
- color: #000000;
+ color: #ffffff;
 }
 .location a i {
     margin-right: 7px;
 }
 .socialbuttons{
-margin-left: 14rem;
+margin-left: 42rem;
 margin-top: 3rem;
 display: flex;
 bottom: 1rem;            /* 1rem من أسفل القسم */
