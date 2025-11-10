@@ -507,3 +507,37 @@ margin-left: 30px;
 }
 
    
+@media (max-width: 390px){
+
+/*  THIS IS MIDEA OF PRODUCTS  */
+.title {
+display: flex;
+justify-content: space-around;
+color: orange;
+font-size: 3.3em;
+font-weight: 800;
+margin-bottom: 30px;
+}
+
+.card{
+background: rgb(234, 229, 220);
+width: 130px;
+box-shadow: 0 5px 15px rgba(1 1 1/ 55%);
+border-radius: 10pX;
+display: inline-block;
+flex-direction: row;
+flex-wrap: wrap;
+
+}
+.card:hover{
+transform: scale(1.1);
+transition: 0.7s ease;
+}
+.media{
+width: 90px;
+}
+/*  THIS IS LAST OF media PRODUCTS  */
+
+}
+
+   
