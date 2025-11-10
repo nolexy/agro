@@ -16,6 +16,8 @@ outline: none; border: none;
 text-decoration: none;
 text-transform: capitalize;
 transition: .2s linear;
+direction: rtl;
+text-align: right;
 }
 section {
   padding: 2rem 9%;       
@@ -139,13 +141,12 @@ transition: 0.7s ease;
 .socialbuttons{
 bottom: 1rem;     
 margin-top: 3rem;              
-display: flex;
 gap: 10px;
-align-items: center;
-margin-left: 42%;
+margin-right: 100px;
 }
 .socialbuttons h2{
 color: #101141;
+margin-left: 100px;
 }
 .socialbuttons a {
 color: #4130d9;
@@ -216,9 +217,12 @@ text-align: center;
 /*  THIS IS LAST OF PRODUCT  */
 
 /*  THIS IS SERVICE  */
+
 #serviceb {
 background: rgb(5, 22, 30);
 padding: 3rem 2rem;
+direction: rtl;
+text-align: right;
 }
 #serviceb h1 {
 color: rgb(112, 157, 185);
@@ -238,6 +242,8 @@ margin-top: 35px;
 }
 .abdo{
 margin: 10px 60PX;  
+direction: rtl;
+text-align: right;
 }
 .abdo p {
 color: #d3d3d3;
@@ -245,6 +251,8 @@ font-size: 1.5rem;
 font-weight: 400;
 line-height: 1.8;
 max-width: 500px;
+direction: rtl;
+text-align: right;
 }
 .abdo p span {
 display: flex;
@@ -252,12 +260,16 @@ font-size: 2rem;
 font-weight: 600;
 color: rgb(71, 127, 162);
 margin-bottom: 10px;
+direction: rtl;
+text-align: right;
 }
 .abdo{
 border-radius: 10pX;
 padding:20px;
 margin: 10px 60PX;  
 gap: 20PX;
+direction: rtl;
+text-align: right;
 }
 .abdo p span {
 display: flex;
@@ -265,6 +277,8 @@ font-size: 2rem;
 font-weight: 600;
 color: rgb(71, 127, 162);
 margin-bottom: 10px;
+direction: rtl;
+text-align: right;
 }
 .abdo h2{
 display: flex;
@@ -272,6 +286,8 @@ font-size: 2rem;
 font-weight: 600;
 color: rgb(44, 98, 132);
 margin-bottom: 10px;
+direction: rtl;
+text-align: right;
 }
 /*  THIS IS LAST OF SERVICE  */
 
